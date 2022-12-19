@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editFeederName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Feeder Name"
+            />
+
+        <EditText
+            android:id="@+id/editRatedCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rated Capacity"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/feederSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Feeder"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/feederMsg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+        

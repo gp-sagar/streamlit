@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/data_display"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/s_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/objectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_no"
+        />
+
+    <TextView
+        android:id="@+id/latitude_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/objectName"
+        android:text="@string/latitude"/>
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/latitude_title"
+        android:layout_toRightOf="@id/latitude_title"
+        />
+
+    <TextView
+        android:id="@+id/longitude_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/latitude_title"
+        android:text="@string/longitude"/>
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/longitude_title"
+        android:layout_toRightOf="@id/longitude_title"/>
+
+    <TextView
+        android:id="@+id/altitude_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longitude_title"
+        android:text="@string/altitude"/>
+
+    <TextView
+        android:id="@+id/textAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/altitude_title"
+        android:layout_toRightOf="@id/altitude_title"/>
+
+    <TextView
+        android:id="@+id/accuracy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/altitude_title"
+        android:text="@string/accuracy"/>
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/accuracy_title"
+        android:layout_toRightOf="@id/accuracy_title"/>
+
+    <TextView
+        android:id="@+id/time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accuracy_title"
+        android:text="@string/time"/>
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/time_title"
+        android:layout_toRightOf="@id/time_title"/>
+</RelativeLayout>

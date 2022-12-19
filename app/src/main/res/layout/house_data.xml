@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/s_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/consumerName_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_no"
+        android:text="@string/consumerName"
+        />
+
+    <TextView
+        android:id="@+id/consumerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/consumerName_title"
+        android:layout_toRightOf="@id/consumerName_title"
+        />
+
+    <TextView
+        android:id="@+id/fatherName_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/consumerName_title"
+        android:text="@string/fatherName"
+        />
+
+    <TextView
+        android:id="@+id/fatherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/fatherName_title"
+        android:layout_toRightOf="@id/fatherName_title"
+        />
+
+    <TextView
+        android:id="@+id/mobileNumber_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fatherName_title"
+        android:text="@string/mobileNumber"
+        />
+
+    <TextView
+        android:id="@+id/mobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/mobileNumber_title"
+        android:layout_toRightOf="@id/mobileNumber_title"
+        />
+
+    <TextView
+        android:id="@+id/latitude_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobileNumber_title"
+        android:text="@string/latitude"/>
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/latitude_title"
+        android:layout_toRightOf="@id/latitude_title"
+        />
+
+    <TextView
+        android:id="@+id/longitude_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/latitude_title"
+        android:text="@string/longitude"/>
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/longitude_title"
+        android:layout_toRightOf="@id/longitude_title"/>
+
+    <TextView
+        android:id="@+id/accuracy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longitude_title"
+        android:text="@string/accuracy"/>
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/accuracy_title"
+        android:layout_toRightOf="@id/accuracy_title"/>
+
+    <TextView
+        android:id="@+id/time_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accuracy_title"
+        android:text="@string/time"/>
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/time_title"
+        android:layout_toRightOf="@id/time_title"/>
+</RelativeLayout>

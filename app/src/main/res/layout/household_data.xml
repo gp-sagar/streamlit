@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <requestFocus/>
+    </TextView>
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <requestFocus/>
+    </TextView>
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt">
+
+        <requestFocus/>
+    </TextView>
+
+    <TextView
+        android:id="@+id/surveyor_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surveyor_name"/>
+
+    <TextView
+        android:id="@+id/consumer_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/consumer_name"/>
+
+    <TextView
+        android:id="@+id/consumer_fathers_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/consumer_fathers_name"/>
+
+    <TextView
+        android:id="@+id/mobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/adults"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/children"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/occupation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/survey_question_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_question_2"/>
+
+    <TextView
+        android:id="@+id/affordable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/survey_question_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_question_3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="@string/light"/>
+
+        <TextView
+            android:id="@+id/light"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hrs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="@string/fan"/>
+
+        <TextView
+            android:id="@+id/fan"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hrs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="@string/television"/>
+
+        <TextView
+            android:id="@+id/television"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hrs"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="@string/other_devices"/>
+
+        <TextView
+            android:id="@+id/other_equipment"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hrs"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/total_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/survey_question_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_question_4"/>
+
+        <TextView
+            android:id="@+id/mobiles"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_question_4_1"/>
+
+        <TextView
+            android:id="@+id/recharge_quantity"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_question_4_2"/>
+
+        <TextView
+            android:id="@+id/recharge_times"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_question_5"/>
+
+    <TextView
+        android:id="@+id/kerosene_quantity"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_question_5_1"/>
+
+    <TextView
+        android:id="@+id/subsidy_cost"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_question_5_2"/>
+
+    <TextView
+        android:id="@+id/black_cost"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_question_6"/>
+
+    <TextView
+        android:id="@+id/survey_question_6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_type"/>
+
+    <TextView
+        android:id="@+id/connection_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

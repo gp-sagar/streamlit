@@ -1,0 +1,20 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/house_data"
+        android:orderInCategory="100"
+        compat:showAsAction="ifRoom"
+        android:title="@string/house_data"/>
+    <item
+        android:id="@+id/pole_data"
+        android:orderInCategory="100"
+        compat:showAsAction="ifRoom"
+        android:title="@string/pole_data"/>
+    <item
+        android:id="@+id/transformer_data"
+        android:orderInCategory="100"
+        compat:showAsAction="ifRoom"
+        android:title="View Transformers"/>
+</menu>

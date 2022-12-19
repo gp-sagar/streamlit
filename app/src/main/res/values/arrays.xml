@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usageCategory">
+        <item>Domestic</item>
+        <item>Commercial</item>
+    </string-array>
+    <string-array name="povertyMetric">
+        <item>BPL</item>
+        <item>APL</item>
+    </string-array>
+    <string-array name="preWill">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Indifferent</item>
+    </string-array>
+    <string-array name="occupations">
+        <item>@string/agriculture</item>
+        <item>@string/business</item>
+    </string-array>
+    <string-array name="affordable">
+        <item>@string/affordable</item>
+        <item>@string/not_affordable</item>
+    </string-array>
+
+    <string-array name="connection_type">
+        <item>@string/prepaid</item>
+        <item>@string/minimum_plan</item>
+    </string-array>
+
+    <string-array name="feeder_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+</resources>

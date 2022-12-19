@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_site_option"
+        compat:showAsAction="ifRoom"
+        android:title="@string/new_site_option"/>
+    <item
+        android:id="@+id/new_feeder_option"
+        compat:showAsAction="ifRoom"
+        android:title="@string/new_feeder"/>
+    <item
+        android:id="@+id/upload_map_option"
+        compat:showAsAction="ifRoom"
+        android:title="@string/upload_map_option"/>
+</menu>
